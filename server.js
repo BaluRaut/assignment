@@ -10,7 +10,7 @@ new WebpackDevServer(webpack(config), { // Start a server
   inline: false,
   historyApiFallback: true,
   quiet: true // Without logging
-}).listen(9999, 'localhost', function (err, result) {
+}).listen(9996, 'localhost', function (err, result) {
   if (err) {
     console.log(err);
   }
